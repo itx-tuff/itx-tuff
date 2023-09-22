@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    color:rgb(247, 247, 247);
+}
+.header{
+    background:rgb(32 29 29 / 58% ) ;
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 55px;
+    border-radius:1px ;
+    box-shadow: 3px 6px px 3px rgb(176, 36, 36);
+}
+.header h1{
+    color:red;
+    font-family: fantasy;
+    display: inline;
+    font-size: 40px;
+}
+.header a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+    text-align: right;
+    margin-top:5px;
+    transition: all;
+    transition-duration:1s;
+    transition-delay:0.3s ;
+}
+.right{
+    display: inline;
+    margin-top:14px;
+   text-align: right;
+   float: right;
+}
+#contact{
+    background-color: blue;
+    color:white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration:1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.header a:hover{
+    background-color:blue;
+    color:white;
+    border-radius: 20px;
+}
+.header a:active{
+    color:red;
+    background-color: white;
+}
+#contact:hover{
+    color:black;
+    background-color:red;
+}
+.oo    {
+         background-image: url(./bgimg/wave2.jpg.png);
+        background-size: cover;
+        justify-content: space-between;
+        display: flex;
+}
+.About{
+    margin-top:170px;
+    margin-left:100px;
+}
+.About h6{
+    font-size: small;
+    margin-bottom:0px;
+}
+.About h1{
+    color: yellowgreen;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+#developer{
+    background-color: rgb(220, 209, 2);
+    color:black;
+   font-size: 10px;
+   font-weight: 540;
+   border: none;
+  padding: 3px;
+  border-radius:3px;
+  margin-top:-20px;
+}
+.About p{
+    font-size:12px;
+    margin-top:8px;
+}
+.About a{
+    color:rgb(47, 0, 255);
+    text-decoration: none;
+}
+.picture{
+    display: inline-block; 
+    width:450px;
+    height:400px ;
+    margin-top:40px;
+}
+.picc{
+    position: relative;
+    border:none;
+    width: 250px;
+    border-radius:10px;
+    
+    margin-top:120px;
+    margin-left:150px;
+}
+#npicture{
+    border:none;
+    width:20px;
+    height:20px;
+    margin-left:130px;
+    display: inline-block;
+}
+.picture p{
+    display: inline;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.contt{
+    height: 690px;
+    background-image: url(./bgimg/imgfa.jpg);
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    padding-top:40px;
+    font-weight: bolder;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+.container h2{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom:0;
+}
+.container span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    color:yellowgreen;
+}
+.me{
+    color:rgb(255, 255, 255);
+    margin-top:-10px;
+    font-size: 13px;
+}
+.cont{
+    background-image:url(.//bgimg/back.jpg.png);
+    color:rgb(255, 255, 255);
+    margin-top: 40px;
+    width:700px;
+    height: 400px;
+    margin-left:20%;
+    border-radius: 30px;
+}
+.cont h1{
+   
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.cont p{
+    font-size: 19px;
+    margin-left:19px;
+    margin-top:25px;
+    font-weight: bold;
+}
+.per{
+    border-radius: 10px;
+    width:90%;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.percent{
+    background-color: rgb(116, 194, 92);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 50%;
+    padding:1%;
+    text-align: right;
+}
+.css{
+    background-color: rgb(116, 194, 92);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 10px;
+    width: 45%;
+    padding: 1%;
+    text-align: right;
+}
+.java{
+    background-color: rgb(116, 194, 92);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 3%;
+    padding: 1%;
+    text-align: right;
+}
+.c{
+    background-color: rgb(116, 194, 92);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 50%;
+    padding: 1%;
+    text-align: right;
+}
+.portfolio{
+    background-image: url(./bgimg/low-poly-grid-haikei.png);
+    background-size: cover;
+}
+.portfolio h1{
+        text-align: center;
+        padding-top:40px;
+        color:rgb(203, 203, 27);
+}
+.tasweer{
+    padding:20px;
+    display: flex;
+    width:350px;
+    display: inline-block;
+    height: 200px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.tasweer img{
+ margin-left:70px;
+ height: 170px;
+ width: 200px;
+ border-radius: 10px;
+ box-shadow: 2px 5px 8px white;
+}
+.last{
+    background-image:url(./bgimg/circle-scatter-haikei.png);
+}
+.contact{
+  
+    height: 500px;
+    width: 600px;
+    background-image: url(./bgimg/polygon-scatter-haikei.png);
+    background-size: cover;
+    margin-left:400px;
+    border-radius: 20px;
+    border:2px solid;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:40px;
+}
+.contact h1{
+    text-align: center;
+    color: yellowgreen;
+    margin-top: 60px;
+}
+.contact input{
+    width: 200px;
+    height: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    margin-top:20px;
+    background: transparent;
+    margin-left:50px; 
+    border-radius: 10px;
+    color:white;
+    font-size: 14px;
+}
+input[type="email"]
+{
+    width: 200px;
+    height: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background: none;
+    margin-top:20px;
+    background: transparent;
+    margin-left:50px; 
+    border-radius: 10px;
+    color:white;
+    font-size: 14px;
+}
+#text-area{
+    margin-left:50px;
+    margin-top:20px;
+    background:none;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    color:white;
+    
+}
+.contact button{
+    background-color:blue;
+    margin-right:80px;
+    margin-top:10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    float:right;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    padding-top:8px;
+    padding-bottom: 8px;
+    transition: all;
+    transition-duration:2ss;
+    transition-delay:1s;
+}
+.contact button:hover{
+    background-color:rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.contact button:active{
+    background-color: white;
+    color:red;
+}
+
+.first{
+    background-color: #232a2d94;
+    height: 300px;
+    display: flex;
+   
+}
+.logo{
+    height: 170px;;
+    border-right: 2px solid white;
+    margin-left:70px;
+    margin-top:50px;
+    margin-bottom: 20px;
+   
+}
+.logo h1{
+    color:white(156, 65, 65);
+    font-family: fantasy;
+    margin-top:68px;
+    margin-right: 20px;
+}
+.option{
+  margin-left:10px;
+  width: 250px;
+  height: 200px;
+  margin-top:120px;
+   
+}
+.option a{
+    text-decoration: none;
+    color:white;
+    display: inline;
+    margin-left:10px ;
+}
+.option p{
+    margin-left:10px;
+    margin-top:7px;
+}
+.right{
+    border:none;
+    width: 700px;
+    margin-left:110px;
+}
+.black{
+    float:right;
+    margin-top:80px;
+    margin-right:80px;
+}
+.black i{
+    font-size:40px;
+    margin-left:20px;
+}
+@media(max-width:800px){
+    .header{
+        width:100%;
+        font-size: 30px;
+        height: 85px;
+    }
+    .header h1{
+        font-size: 70px;
+    }
+    .oo{
+        background-image: url(./wave2.jpg.png);
+        background-size: cover;
+        justify-content: space-between;
+        display: flex;
+        height: 600PX;
+        Width:270%;
+}
+.About{
+    margin-top:190px;
+    margin-left:100px;
+}
+.picture{
+    margin-top:40px;
+    margin-right:50px;
+}
+.picture:before{
+    top:14%;
+    left:170%;
+}
+.contt{
+    height:690px;
+    width:270%;
+}
+.portfolio{
+   
+    width:270%;
+}
+.tasweer{
+    padding:50px;
+}
+.last{
+    width:270%;
+}
+.contact{
+    margin-left:200px;
+    height: 500px;
+}
+.first{
+    width:270%;
+}
+}
